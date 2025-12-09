@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+Grund+Guides&family=Playwrite+DE+SAS:wght@100..400&family=Playwrite+SK:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar */
+
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    gap: 30px;
+    padding-top: 20px;
+    background-color: #0B0121;
+    color: white;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    gap:10px;
+}
+
+.Menu{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.Download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-1{
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 10px;
+
+}
+
+.btn-2{
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    background-color: #0B0121;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Hero */
+
+/* .section-1{
+    position: relative;
+} */
+
+.Hero{
+    width: 1228px;
+    height: 900px;
+    /* position: relative; */
+    background-image: url(./images/Hero\ Stack.png);
+}
+
+.main-btn{
+    padding-left: 100px;
+}
+
+.We{
+    color: white;
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 10px 25px;border-radius: 20px;
+}
+
+.content{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.main-headin{
+    padding-left: 430px;
+
+}
+
+.Modern{
+    width:450px;
+    /* text-align: center; */
+    /* padding-left:100px; */
+    font-size: 40px;
+    color: white ;
+    padding-top: 20px;
+}
+
+.pera{
+    padding-top: 20px;
+    color: #ECECEC;
+    font-weight:normal;
+    padding-left: 100px;
+}
+
+.main-button{
+    padding-left: 100px;
+}
+
+.btn-3{
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 20px;
+}
+
+.btn-4{
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: none;
+
+
+}
+
+.Wrapper{
+    width: 1000px;
+    padding-left:25%;
+}
+
+.footer{
+    text-align: center;
+    padding-left: 100px;
+}
+
+.footer p{
+    color: #ECECEC;
+    font-size: 15px;
+}
+
+.footer img{
+    width: 700px;
+    padding-top: 20px;
+}
+
