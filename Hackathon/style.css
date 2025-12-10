@@ -125,8 +125,9 @@
 .btn-4{
     padding: 10px 15px;
     border-radius: 15px;
-    border: none;
-
+    border: 1px solid gray;
+    background-color: transparent;
+    color: white;
 
 }
 
@@ -149,4 +150,5 @@
     width: 700px;
     padding-top: 20px;
 }
+
 
